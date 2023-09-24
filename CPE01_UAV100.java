@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class CPE01_UAV100 {
 
-    public static int even(int e) {
+    public static int Even(int e) {
         return e % 2;
     }
 
@@ -17,7 +17,7 @@ public class CPE01_UAV100 {
 
         System.out.print("The 3n+1 of " + n + ": ");
         while (n > 1) {
-            if (even(n) == 1)
+            if (Even(n) == 1)
                 n = 3 * n + 1;
             else
                 n /= 2;
